@@ -1,0 +1,13 @@
+/* CSS Document */
+
+html, body {
+    height: 100%;
+    background-color: #000;
+    margin: 8px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+}
