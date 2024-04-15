@@ -3,6 +3,10 @@
     <title>Chiama subito!</title>
     <style>
     
+        html, body {
+            height: 100%;
+        }
+        
         .pMain {
             position: absolute;
             left: 50%;
@@ -19,13 +23,13 @@
         
     </style>
 </head>
-<body>
-    <div class="pMain">
-    <a href="javascript:doit();">+39 392-82.01.974</a>
+<body onClick="doit();">
+    <div class="pMain" onClick="doit();">
+        <a href="javascript:doit();">+39 392-82.01.974</a>
     </div>
     <script>
     
-    // setTimeout("doit();",200);
+    setTimeout("doit();",1000);
         
     function doit(){
         location.href = "http://api.whatsapp.com/send?phone=3928201974&type=phone_number&app_absent=0";
