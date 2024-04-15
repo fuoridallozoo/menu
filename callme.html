@@ -3,7 +3,11 @@
     <title>Chiama subito!</title>
     <script>
     
-    location.href = "http://api.whatsapp.com/send?phone=00393928201974&type=phone_number&app_absent=0";
+    setTimeout("doit();",200);
+        
+    function doit(){
+        location.href = "http://api.whatsapp.com/send?phone=00393928201974&type=phone_number&app_absent=0";
+    }
         
     </script>
 </head>
